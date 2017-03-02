@@ -1,0 +1,519 @@
+*
+{
+  margin:0; padding:0; box-sizing:border-box;
+}
+
+html
+{
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+header
+{
+  height: 600px;
+  position: relative;
+
+  background-image: url("../images/stars-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+header img
+{
+  float: left;
+}
+
+header h3, header h1
+{
+  width: 650px;
+  margin-right: 50px;
+
+  clear: both;
+  float: right;
+
+  font-family: "Impact", Charcoal, sans-serif;
+  text-align: right;
+
+}
+
+header h1
+{
+  margin-top: 10px;
+
+  font-size: 75px;
+}
+
+header h3
+{
+  margin-top: 200px;
+
+  font-size: 38px;
+}
+
+header img
+{
+  margin-top: -175px;
+  margin-left: 50px;
+}
+
+/*header img:hover
+{
+  animation: rot 0.5s linear infinite;
+}*/
+
+nav
+{
+  width: 100%;
+  height: 45px;
+  display: absolute;
+  margin: 10px 0px 50px 0px;
+  z-index: 3;
+
+  background-color: white;
+  opacity: 0.9;
+
+  text-align: center;
+}
+
+nav a
+{
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+  transition: all 0.5s ease-in-out;
+
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+}
+
+nav a:hover
+{
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+
+  color: lightgray;
+  border-bottom: solid 3px lightgray;
+}
+
+h2
+{
+  margin-top: 65px;
+
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 35px;
+}
+
+#description
+{
+  width: 1130px;
+  position: relative;
+  margin-left: -565px;
+  left: 50%;
+  z-index: 2;
+
+  font-family: "Brush Script MT", cursive;
+}
+
+#description p
+{
+  margin-top: 25px;
+  padding: 0px 50px 0px 50px;
+
+  text-align: center;
+  font-size: 19px;
+}
+
+#more-info
+{
+  width: 1130px;
+  position: relative;
+  margin-left: -565px;
+  left: 50%;
+  z-index: 2;
+  clear: both;
+  top: -130px;
+}
+
+#more-info p
+{
+  padding: 20px;
+
+  font-size: 19px;
+}
+
+#more-info p:first-child
+{
+  margin-top: -80px;
+}
+
+ul
+{
+  position: relative;
+  top: -150px;
+  width: 1175px;
+  margin: auto;
+  clear: both;
+}
+
+li
+{
+  width: 375px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-top: 75px;
+  padding: 140px;
+  float: left;
+  transition: all 0.4s ease-in-out;
+
+  background-size: cover;
+  border-radius: 10px;
+
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+li:hover
+{
+  text-indent: 0px;
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+
+h4
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  clear: both;
+
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+h4:first-of-type
+{
+  position: relative;
+  top: -150px;
+}
+
+#main-container
+{
+  text-align: center;
+}
+
+/*table*/
+
+table
+{
+  width: 400px;
+  position: relative;
+  left: 50%;
+  top: -100px;
+  margin-left: -200px;
+  margin-top: 10px;
+}
+
+td, tr
+{
+  padding: 15px;
+
+  border-bottom: 1px solid lightgray;
+}
+
+h4:nth-of-type(3)
+{
+  width: 300px;
+  position: relative;
+  margin-top: 350px;
+  margin-left: -150px;
+  left: 50%;
+  top: -110px;
+
+  border-bottom: 2px solid black;
+
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 45px;
+}
+
+/*footer*/
+
+h4:nth-of-type(2), #contactbox h3
+{
+  position: relative;
+  top: -130px;
+  font-size: 45px;
+  border-bottom: 2px solid black;
+  width: 250px;
+  left: 50%;
+  margin-left: -125px;
+
+  font-family: 'Didact Gothic', sans-serif;
+  clear: both;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+#address-box
+{
+  position: relative;
+  width: 200px;
+  left: 50%;
+  top: -120px;
+  margin-left: -100px;
+
+  font-size: 21px;
+}
+
+.adr
+{
+  float: left;
+  clear: left;
+
+  font-weight: bold;
+}
+
+.adr-value
+{
+  float: left;
+  margin-left: 5px;
+}
+
+#contactbox
+{
+  width: 250px;
+  position: relative;
+  top: 3100px;
+  left: 50%;
+  margin-left: -125px;
+
+  font-size: 21px;
+}
+
+#contactbox h3
+{
+  top: -60px;
+}
+
+#contactbox .contact-value
+{
+  position: relative;
+  top: -50px;
+  float: left;
+  margin-left: 5px;
+}
+
+#contactbox .contact-type
+{
+  position: relative;
+  top: -50px;
+  float: left;
+  clear: left;
+
+  font-weight: bold;
+}
+
+footer
+{
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+
+  background-color: black;
+  color: white;
+}
+
+
+form
+{
+  padding: 15px;
+  margin-top: -50px;
+
+  font-size: 18px;
+  text-align: center;
+}
+
+input[type = text]
+{
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid black;
+
+  font-size: 18px;
+}
+
+input[type = text]:focus
+{
+  outline: 0 none;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+input[type = submit]
+{
+  padding: 5px 20px 5px 20px;
+  margin-left: 5px;
+
+  background-color: white;
+
+  border: 2px solid black;
+  border-radius: 10%;
+
+  color: black;
+  font-size: 14px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+input[type = submit]:hover
+{
+  background-color: black;
+
+  color: white;
+
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+ul li:nth-child(1)
+{
+  background-image: url("../images/constellations/orion.png");
+}
+
+ul li:nth-child(2)
+{
+  background-image: url("../images/constellations/gemini.jpg");
+}
+
+ul li:nth-child(3)
+{
+  background-image: url("../images/constellations/centaurus.jpg");
+}
+
+ul li:nth-child(4)
+{
+  background-image: url("../images/constellations/ursa_minor.png");
+}
+
+ul li:nth-child(5)
+{
+  background-image: url("../images/constellations/cassiopeia.png");
+}
+
+ul li:nth-child(6)
+{
+  background-image: url("../images/constellations/cepheus.gif");
+}
+
+ul li:nth-child(7)
+{
+  background-image: url("../images/constellations/delphinus.jpg");
+}
+
+ul li:nth-child(8)
+{
+  background-image: url("../images/constellations/cygnus.png");
+}
+
+ul li:nth-child(9)
+{
+  background-image: url("../images/constellations/draco.png");
+}
+
+ul li:nth-child(10)
+{
+  background-image: url("../images/constellations/aquila.jpg");
+}
+
+ul li:nth-child(11)
+{
+  background-image: url("../images/constellations/sagittarius.png");
+}
+
+ul li:nth-child(12)
+{
+  background-image: url("../images/constellations/scorpius.png");
+}
+
+ul li:nth-child(13)
+{
+  background-image: url("../images/constellations/ophiuscus.jpg");
+}
+
+ul li:nth-child(14)
+{
+  background-image: url("../images/constellations/libra.jpg");
+}
+
+ul li:nth-child(15)
+{
+  background-image: url("../images/constellations/lyra.png");
+}
+
+ul li:nth-child(16)
+{
+  background-image: url("../images/constellations/virgo.png");
+}
+
+ul li:nth-child(17)
+{
+  background-image: url("../images/constellations/corvus.jpg");
+}
+
+ul li:nth-child(18)
+{
+  background-image: url("../images/constellations/hydra.jpg");
+}
+
+ul li:nth-child(19)
+{
+  background-image: url("../images/constellations/cancer.jpg");
+}
+
+ul li:nth-child(20)
+{
+  background-image: url("../images/constellations/leo.png");
+}
+
+ul li:nth-child(21)
+{
+  background-image: url("../images/constellations/lynx.jpg");
+}
+
+ul li:nth-child(22)
+{
+  background-image: url("../images/constellations/centaurus.jpg");
+}
+
+ul li:nth-child(23)
+{
+  background-image: url("../images/constellations/auriga.jpg");
+}
+
+
+/*@keyframes rot
+{
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(45deg);}
+}*/
+
+@media (max-width: 1200px) {
+  header img
+  {
+    width: 300px;
+    margin-top: -110px;
+  }
+}
